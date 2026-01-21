@@ -2,7 +2,7 @@ const Profile = () => {
     return (
         <section
             id="profile"
-            className="min-h-screen flex items-center justify-center bg-white"
+            className="min-h-screen flex items-center justify-center bg-green-800"
         >
             <h2 className="text-3xl font-semibold">Profile section</h2>
         </section>

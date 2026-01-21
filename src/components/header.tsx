@@ -1,6 +1,6 @@
 'use client'
 import Image from 'next/image'
-import logo from './../../public/img/logo.png'
+import logo from './../../public/img/logo-trans.png'
 
 const Header = () => {
 
@@ -12,8 +12,11 @@ const Header = () => {
     return (
         <header className="fixed top-0 left-0 w-full h-20 bg-gray-800 text-white z-50">
             <nav className="max-w-6xl mx-auto h-full flex justify-between items-center px-4">
-                <Image src={logo} alt="logo" width={50} height={50} />
 
+                <Image src={logo} alt="logo"
+                       className={'h-full w-auto object-contain rounded-2xl'}
+                />
+                <h1 className="text-3xl font-bold">ООО "АктивТрансТур" </h1>
                 <ul className="flex gap-6 items-center">
                     <li>
                         <button onClick={() => scrollTo('main')} className="text-green-500">
