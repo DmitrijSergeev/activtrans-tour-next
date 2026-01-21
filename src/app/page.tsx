@@ -1,7 +1,17 @@
-export default function Home() {
+import Header from './../components/header'
+import Hero from '@/components/sections/Hero'
+import Profile from '@/components/sections/Profile'
+import Contacts from '@/components/sections/Contacts'
+
+export default function HomePage() {
     return (
-        <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-            MAIN PAGE
-        </div>
-    );
+        <>
+            <Header />
+            <main className="pt-20">
+                <Hero />
+                <Profile />
+                <Contacts />
+            </main>
+        </>
+    )
 }
