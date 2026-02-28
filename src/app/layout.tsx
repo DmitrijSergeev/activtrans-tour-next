@@ -16,6 +16,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
     title: "АктивТрансТур",
     description: "Логистический сайт",
+    icons: {
+        icon: "/icons8-auto-16.ico", // файл должен лежать в /public
+    },
 };
 
 export default function RootLayout({
