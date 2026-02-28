@@ -16,7 +16,7 @@ const Header = () => {
                 <Image src={logo} alt="logo"
                        className={'h-full w-auto object-contain rounded-2xl'}
                 />
-                <h1 className="text-3xl font-bold">ООО "АктивТрансТур" </h1>
+                <h1 className="text-3xl font-bold">OOO "АктивТрансТур"</h1>
                 <ul className="flex gap-6 items-center">
                     <li>
                         <button onClick={() => scrollTo('main')} className="text-green-500">
