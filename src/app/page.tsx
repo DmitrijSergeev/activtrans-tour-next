@@ -1,17 +1,19 @@
 import Header from './../components/header'
-import Hero from '@/components/sections/Hero'
+import AboutUs from '@/components/sections/AboutUs'
 import Profile from '@/components/sections/Profile'
 import Contacts from '@/components/sections/Contacts'
+import Information from "@/components/sections/Information";
 
 export default function HomePage() {
     return (
         <>
             <Header />
-            <main className="pt-20">
-                <Hero />
+            <div className="pt-20">
+                <AboutUs />
                 <Profile />
                 <Contacts />
-            </main>
+                <Information />
+            </div>
         </>
     )
 }

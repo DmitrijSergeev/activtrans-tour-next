@@ -20,17 +20,22 @@ const Header = () => {
                 <ul className="flex gap-6 items-center">
                     <li>
                         <button onClick={() => scrollTo('main')} className="text-green-500">
-                            Main
+                            О нас
                         </button>
                     </li>
                     <li>
                         <button onClick={() => scrollTo('profile')} className="text-green-500">
-                            Profile
+                            Наше предложение
                         </button>
                     </li>
                     <li>
                         <button onClick={() => scrollTo('contacts')} className="text-green-500">
-                            Contacts
+                            Контакты
+                        </button>
+                    </li>
+                    <li>
+                        <button onClick={() => scrollTo('information')} className="text-green-500">
+                            Информация
                         </button>
                     </li>
                 </ul>
